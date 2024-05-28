@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const head = React.createElement(
     "h1",
@@ -18,7 +21,7 @@ const head = React.createElement(
             {id:"child"},[
             //React.createElement("h1",{},"the nested structure is created")
             //insted of giving only one child you can give an ARRAY of children if you want to create siblings for eg :
-            React.createElement("h1",{},"this is h1"),
+            React.createElement("h1",{},"this is hulululu "),
             React.createElement("h2",{},"this is h2"),
             React.createElement("h3",{},"this is h3")]
         )
