@@ -1,4 +1,4 @@
-#NamasteReact
+# NamasteReact
 A repository to maintain the learnings from { NAMASTE REACT } 
 
 # Parser 
@@ -10,3 +10,8 @@ in .parser-cache
 - IMAGE OPTIMISATION 
 - FILE bundling 
 - minify , compress code 
+
+# JSX 
+- it is a way of writing html tag like syntax inside react 
+- this is transpiled by a package called as "BABEL"
+-
