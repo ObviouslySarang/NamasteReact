@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+}
+.navitems>ul{
+    display: flex;
+   
+    list-style-type: none;
+}
+.navitems>ul>li{
+    font-size: large;
+    padding: 10px;
+    margin:10px;
+}
+.rescard{
+    margin: 5px;
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    background-color:rgb(166, 228, 240) ;
+}
+.rescard:hover{
+    border: 1px solid black;
+}
+.resContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.search{
+    padding: 10px;
+}
+.res-img{
+    width: 100%;
+
+}
